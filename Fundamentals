@@ -1,0 +1,20 @@
+#Variables and Data Types 
+
+#Dynamic Typing: Variables don't need type declarations.
+#Basic Types
+
+int: #Integers
+float: #Floating point numbers
+str: #Strings
+bool: #Boolean (True/False)
+list: #Ordered, mutable collections
+tuple: #Ordered, immutable collections
+dict: #Key-value pairs
+set: #Unordered collection of unique elements
+
+'''
+Operators
+Arithmetic: +, -, *, /, %, ** (power), // (floor division)
+Comparison: ==, !=, >, <, >=, <=
+Logical: and, or, not
+'''
