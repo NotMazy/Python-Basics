@@ -18,3 +18,93 @@ Arithmetic: +, -, *, /, %, ** (power), // (floor division)
 Comparison: ==, !=, >, <, >=, <=
 Logical: and, or, not
 '''
+
+#Control Flow
+
+#if-elif-else: 
+
+if condition:
+    statement
+elif condition:
+    statement
+else:
+    statement
+
+#for loops: 
+
+for item in iterable:
+    statement
+
+#while loops: 
+
+while condition:
+    statement
+break and continue: To control loop execution.
+
+#Functions
+
+#Defining Functions: 
+
+def function_name(parameters):
+    # function body
+    return value
+#Lambda Functions: 
+lambda arguments: expression
+
+# Modules and Packages
+# Importing: 
+
+import module
+from module import function
+import module as alias
+
+#Creating Modules: Just save Python code in a .py file.
+
+#File Handling
+#Reading/Writing Files:
+
+with open('file.txt', 'r') as file:
+    content = file.read()
+
+with open('file.txt', 'w') as file:
+    file.write('Hello, World!')
+
+#Exception Handling
+#try-except: 
+
+try:
+    # code that might raise an exception
+except ExceptionType:
+    # handle the exception
+finally:
+    # always execute this
+
+#Classes and Objects
+#Class Definition: 
+
+class ClassName:
+    def __init__(self, attributes):
+        self.attribute = attribute
+
+    def method(self):
+        # method body
+
+#Decorators and Context Managers
+#Decorators: 
+
+@decorator
+def function():
+    # function body
+
+#Context Managers: 
+
+with open('file.txt', 'r') as file:
+    # file operations
+
+#List Comprehensions and Generator Expressions
+#List Comprehensions: 
+
+[x**2 for x in range(10)]
+
+#Generator Expressions: 
+(x**2 for x in range(10))
